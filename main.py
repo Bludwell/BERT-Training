@@ -342,7 +342,7 @@ def predict_texts(texts, threshold=THRESHOLD):
 
     return pd.DataFrame(results)
 
-manual_results_df = predict_texts(MANUAL_EXAMPLES, threshold=0.35)
+manual_results_df = predict_texts(MANUAL_EXAMPLES, threshold=0.5)
 manual_results_path = os.path.join(OUTPUT_DIR, "manual_examples_predictions.csv")
 manual_results_df.to_csv(manual_results_path, index=False)
 

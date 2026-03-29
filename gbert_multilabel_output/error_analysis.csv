@@ -1,40 +1,41 @@
 text,true_labels,predicted_labels,false_positives,false_negatives,stress_prob,schlaf_prob,bewegung_prob,ernaehrung_prob
-Die Stille der Nacht bringt keine Stille im Inneren.,"stress, schlaf",schlaf,,stress,0.4102814495563507,0.6929694414138794,0.22386901080608368,0.13376720249652863
-Zu wenig Erholung und kaum Schwung.,"schlaf, bewegung","stress, schlaf",stress,bewegung,0.5198181867599487,0.5955705642700195,0.4870946705341339,0.3184677064418793
-Kaum Ruhe und viel nebenbei geknabbert.,"stress, ernaehrung","stress, bewegung, ernaehrung",bewegung,,0.6372482180595398,0.3334251344203949,0.7343564629554749,0.6988036036491394
-Ich reagiere schneller gereizt als sonst.,stress,,,stress,0.4971281588077545,0.3615844249725342,0.3389202952384949,0.4108225107192993
-Die Nacht war löchrig und der Tag zu voll.,"stress, schlaf, bewegung, ernaehrung",schlaf,,"stress, bewegung, ernaehrung",0.3464253544807434,0.7151895761489868,0.19149841368198395,0.1543516367673874
-Ich liege wach und denke an alles was ich noch erledigen muss. Am nächsten Tag fehlt mir die Energie. Der Stress hört nicht auf.,"stress, schlaf",schlaf,,stress,0.3611160218715668,0.5164073705673218,0.24136056005954742,0.15981455147266388
-Zu wenig Pause für Kopf und Körper.,"stress, schlaf","stress, bewegung",bewegung,schlaf,0.6532466411590576,0.3052467107772827,0.5959362387657166,0.4945276975631714
-So viele Baustellen gleichzeitig. Ich weiß gar nicht wo ich anfangen soll. Das stresst mich extrem.,stress,,,stress,0.48234862089157104,0.3476923406124115,0.2601427733898163,0.23568648099899292
-Der Rhythmus ist komplett verschoben.,"stress, schlaf, bewegung, ernaehrung",,,"stress, schlaf, bewegung, ernaehrung",0.39654603600502014,0.44998684525489807,0.22838503122329712,0.13453254103660583
-Die Anspannung nehme ich mit ins Bett. Einschlafen klappt kaum. Tagsüber bin ich dann völlig überdreht.,"stress, schlaf",schlaf,,stress,0.4561344385147095,0.599575936794281,0.19910399615764618,0.20125360786914825
-"Ruhiger Start, klarer Verlauf, entspannter Abschluss.",,"stress, schlaf","stress, schlaf",,0.5233759880065918,0.5146580934524536,0.27711355686187744,0.24784988164901733
-Ständig unter Strom.,stress,schlaf,schlaf,stress,0.48795318603515625,0.5515733361244202,0.33542245626449585,0.1927577704191208
-Heute keine frische Luft geschnappt. Nur drinnen gewesen. Ich merke wie mir das nicht gut tut.,bewegung,,,bewegung,0.36514079570770264,0.28041893243789673,0.4858064651489258,0.43163013458251953
-Durchwacht und durchgesessen.,"schlaf, bewegung",schlaf,,bewegung,0.43082985281944275,0.520243763923645,0.4788459837436676,0.23471765220165253
-Ich habe das Gefühl immer funktionieren zu müssen. Pausen mache ich kaum noch. Das zehrt an mir.,stress,,,stress,0.4176793098449707,0.26586124300956726,0.352927565574646,0.28504160046577454
-Kaum Pause im Kopf.,stress,"stress, schlaf",schlaf,,0.5817434787750244,0.6045665740966797,0.32781070470809937,0.16474328935146332
-Ich komme kaum zur Ruhe esse chaotisch und sitze nur rum. Die Anspannung ist ständig da. Erholt bin ich nie.,"stress, schlaf, bewegung, ernaehrung","stress, bewegung, ernaehrung",,schlaf,0.5639550685882568,0.4279177188873291,0.6367365717887878,0.732799768447876
-"Der Puls hoch, die Schritte niedrig.","stress, bewegung, ernaehrung",stress,,"bewegung, ernaehrung",0.5348279476165771,0.4204464554786682,0.4867643117904663,0.28990426659584045
-Ich fühle mich permanent unter Druck. Kaum ist eine Sache erledigt kommt die nächste. Abschalten fällt schwer.,stress,,,stress,0.4696274697780609,0.3914766311645508,0.20944805443286896,0.24976111948490143
-Motivation war da ohne Druck.,,stress,stress,,0.5017173886299133,0.3185082674026489,0.31469303369522095,0.187843918800354
-Zerstreute Nacht und chaotischer Tagesablauf.,"stress, schlaf, bewegung, ernaehrung","stress, schlaf",,"bewegung, ernaehrung",0.501343309879303,0.7916879653930664,0.37032240629196167,0.24394647777080536
-Heute nur Fast Food gegessen. Frisches kam gar nicht auf den Tisch. Mein Bauch fühlt sich schwer an.,ernaehrung,"bewegung, ernaehrung",bewegung,,0.3923470377922058,0.213339164853096,0.504072368144989,0.6605325937271118
-Den ganzen Tag nur am Schreibtisch. Kein Spaziergang nichts. Ich fühle mich richtig steif.,bewegung,,,bewegung,0.39910832047462463,0.403067409992218,0.3626289367675781,0.2708759307861328
-Schon beim Aufstehen denke ich an die ganzen Aufgaben. Mein Körper ist ständig auf Alarm. Das macht mich fertig.,stress,,,stress,0.4867566227912903,0.37512174248695374,0.2160060703754425,0.20718379318714142
-Kein tiefer Rhythmus gefunden.,schlaf,,,schlaf,0.36880818009376526,0.4913982152938843,0.24197451770305634,0.11410054564476013
-"Ich esse aus Gewohnheit, nicht aus Hunger.","stress, ernaehrung","bewegung, ernaehrung",bewegung,stress,0.4676038920879364,0.253248929977417,0.5510568022727966,0.6549105048179626
-Körper und Kopf arbeiten im selben Takt.,,stress,stress,,0.535634458065033,0.3111487329006195,0.2540915012359619,0.24760599434375763
-In Bewegung geblieben.,bewegung,,,bewegung,0.3748488128185272,0.321079820394516,0.31264713406562805,0.12526382505893707
-Innere Alarmbereitschaft.,stress,,,stress,0.4664609134197235,0.45053884387016296,0.28434088826179504,0.1727406233549118
-Ich komme kaum zur Ruhe weder nachts noch am Tag. Die To Dos verfolgen mich bis ins Bett. Das laugt mich aus.,"stress, schlaf",schlaf,,stress,0.48778390884399414,0.6737769246101379,0.28646036982536316,0.2431265264749527
-"Zu viel im Kopf, zu wenig Plan.","stress, ernaehrung","stress, schlaf",schlaf,ernaehrung,0.614459216594696,0.524258553981781,0.3890029788017273,0.2949407398700714
-Heute nicht faul gewesen.,bewegung,,,bewegung,0.4339906871318817,0.4762525260448456,0.2755722403526306,0.1744903177022934
-Ich sitze viel zu viel und merke es im Rücken. Bewegung kommt gerade viel zu kurz. Das fühlt sich nicht gesund an.,bewegung,,,bewegung,0.3995031714439392,0.16225726902484894,0.4771885275840759,0.4791220724582672
-Wenig Schlaf und viel Druck gerade. Keine gute Kombi. Ich bin schnell gereizt.,"stress, schlaf","stress, schlaf, bewegung, ernaehrung","bewegung, ernaehrung",,0.5673211812973022,0.6458690762519836,0.5719358921051025,0.5017872452735901
-Ich fühle mich gehetzt selbst wenn ich kurz sitze. Innerlich dreht alles auf Vollgas. Das strengt mich total an.,stress,,,stress,0.4808555543422699,0.4366363286972046,0.28723904490470886,0.27335479855537415
-Aktivitätslevel hoch.,bewegung,"stress, bewegung",stress,,0.5003887414932251,0.18630120158195496,0.5442502498626709,0.39759013056755066
-Zu viel im Kopf und zu wenig Schlaf. Ich funktioniere nur noch. Das macht mir Sorgen.,"stress, schlaf",,,"stress, schlaf",0.4347822070121765,0.4853869080543518,0.38871851563453674,0.33299800753593445
-Kaum Luft geholt und nur das Nötigste gegessen.,"stress, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",schlaf,,0.5932355523109436,0.5088347792625427,0.6189562678337097,0.5662844181060791
-Heute ordentlich Schritte gesammelt.,bewegung,,,bewegung,0.4431670904159546,0.25602415204048157,0.44476139545440674,0.15770088136196136
+Ich schlafe aktuell schlecht und esse im Moment ziemlich chaotisch.,"schlaf, ernaehrung","schlaf, bewegung, ernaehrung",bewegung,,0.45721641182899475,0.5381189584732056,0.5430895090103149,0.8903844952583313
+"Es ist gerade alles zu viel, ich bin träge und Mahlzeiten fallen aus.","stress, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",schlaf,,0.6724157929420471,0.5577127933502197,0.5376666188240051,0.9210383296012878
+Ich habe meine Bewegung vernachlässigt und meine Ernährung gleich mit.,"bewegung, ernaehrung",ernaehrung,,bewegung,0.4521748125553131,0.2879001200199127,0.4902202785015106,0.8883023858070374
+"Die Nächte sind schlecht, der Alltag hektisch und mein Essen total durcheinander.","stress, schlaf, ernaehrung","stress, schlaf, bewegung, ernaehrung",bewegung,,0.7426607012748718,0.7584187984466553,0.5244444608688354,0.8643954992294312
+"Ich habe schlecht geschlafen, mich kaum bewegt und wieder nur Fast Food gegessen.","schlaf, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",stress,,0.5699436664581299,0.7583467960357666,0.6424344182014465,0.8979671597480774
+Sport fällt aus und mein Essrhythmus ist ebenfalls schlecht.,"bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung","stress, schlaf",,0.5548582077026367,0.5196512937545776,0.569354236125946,0.8246476054191589
+"Ich bin nachts oft wach, tagsüber angespannt und esse meist nur Snacks.","stress, schlaf, ernaehrung","stress, schlaf, bewegung, ernaehrung",bewegung,,0.7072846293449402,0.7115313410758972,0.6520688533782959,0.9160794019699097
+Ich bin gestresst und war heute fast gar nicht draußen.,"stress, bewegung","schlaf, bewegung",schlaf,stress,0.47455063462257385,0.6120679974555969,0.6560568809509277,0.18203090131282806
+Ich sitze in letzter Zeit nur noch rum.,bewegung,,,bewegung,0.3432127833366394,0.27420175075531006,0.47759824991226196,0.11923340708017349
+Ich komme weder nachts noch tagsüber richtig zur Ruhe.,"stress, schlaf",schlaf,,stress,0.3235150873661041,0.6928534507751465,0.4708764851093292,0.11664673686027527
+Ich wache oft gerädert auf und esse dann den ganzen Tag durcheinander.,"schlaf, ernaehrung","stress, bewegung, ernaehrung","stress, bewegung",schlaf,0.5057888031005859,0.4618692100048065,0.5002893805503845,0.9348762631416321
+Ich habe aktuell Schlafprobleme und deutlich zu viel Stress.,"stress, schlaf","stress, schlaf, bewegung",bewegung,,0.5785601735115051,0.7601033449172974,0.6404056549072266,0.15794365108013153
+Ich bin seit Tagen müde und esse gleichzeitig viel zu unregelmäßig.,"schlaf, ernaehrung",ernaehrung,,schlaf,0.4351886808872223,0.4192163050174713,0.49201110005378723,0.934287428855896
+"Mein Schlaf leidet, mein Körper ist inaktiv und mein Essen nicht besonders gut.","schlaf, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",stress,,0.7539735436439514,0.809928834438324,0.6115017533302307,0.8725728392601013
+Ich war die letzten Tage sehr inaktiv.,bewegung,,,bewegung,0.30216363072395325,0.41590407490730286,0.42184343934059143,0.08822080492973328
+Ich habe die letzten Nächte kaum geschlafen und bin entsprechend angespannt.,"stress, schlaf","schlaf, bewegung",bewegung,stress,0.440500408411026,0.8268551826477051,0.6030651330947876,0.17455174028873444
+Ich bin gerade ziemlich gestresst.,stress,,,stress,0.31860238313674927,0.213091641664505,0.19599533081054688,0.07880309969186783
+"Nachts wache ich auf, tagsüber ist alles zu viel und Mahlzeiten fallen aus.","stress, schlaf, ernaehrung","stress, schlaf, bewegung, ernaehrung",bewegung,,0.7156018018722534,0.8062569499015808,0.6116257309913635,0.8774359822273254
+Ich war heute sehr träge und kaum auf den Beinen.,bewegung,"schlaf, bewegung",schlaf,,0.4397099018096924,0.7172759771347046,0.6836850047111511,0.179893359541893
+Heute war ein stressiger Tag und ich habe mich kaum bewegt.,"stress, bewegung","stress, schlaf, bewegung",schlaf,,0.5403530597686768,0.7064222097396851,0.7545107007026672,0.17697402834892273
+"Ich schlafe zu wenig, bewege mich kaum und greife oft zu Süßem.","schlaf, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",stress,,0.7275380492210388,0.8295273184776306,0.7352573871612549,0.8007349371910095
+Heute war stressig und ich saß fast den ganzen Tag nur herum.,"stress, bewegung","stress, schlaf, bewegung",schlaf,,0.5771974325180054,0.6305378675460815,0.6585192680358887,0.17463937401771545
+Ich bin seit Tagen müde und gleichzeitig total gestresst.,"stress, schlaf","stress, schlaf, bewegung",bewegung,,0.575435221195221,0.7494015693664551,0.6499606966972351,0.1412300169467926
+"Ich bin müde, gereizt und habe heute kaum etwas Vernünftiges gegessen.","stress, schlaf, ernaehrung","schlaf, bewegung, ernaehrung",bewegung,stress,0.48649218678474426,0.6494054198265076,0.5752909183502197,0.9103590250015259
+Mich stresst die Arbeit im Moment sehr.,stress,,,stress,0.4157331883907318,0.1671585887670517,0.28988713026046753,0.10645154863595963
+"Ich habe viel im Kopf, bewege mich wenig und esse oft nur irgendwas.","stress, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",schlaf,,0.6393062472343445,0.5326219201087952,0.6893777251243591,0.9268591403961182
+"Ich bin müde, weil ich kaum geschlafen habe, und dazu noch gestresst.","stress, schlaf","stress, schlaf, bewegung",bewegung,,0.7041003704071045,0.8899399042129517,0.7940309047698975,0.27318865060806274
+Ich schiebe Sport gerade ständig auf.,bewegung,,,bewegung,0.38039833307266235,0.18280868232250214,0.33033716678619385,0.1255926787853241
+Mein Schlaf ist kaputt und ich komme kaum noch raus.,"schlaf, bewegung",schlaf,,bewegung,0.3826391100883484,0.7499854564666748,0.42798128724098206,0.1240236759185791
+Mein Alltag ist aktuell ziemlich hektisch.,stress,,,stress,0.3531298041343689,0.16107596457004547,0.2892431616783142,0.11712860316038132
+"Ich schlafe schlecht, bewege mich wenig und esse oft nur irgendwas.","schlaf, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",stress,,0.7366377115249634,0.8287439942359924,0.7462681531906128,0.8703258633613586
+"Ich fühle mich unter Druck, bin körperlich träge und esse viel zu chaotisch.","stress, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",schlaf,,0.7587687969207764,0.6482841968536377,0.6989130973815918,0.9207148551940918
+Auf der Arbeit ist aktuell sehr viel los.,stress,,,stress,0.4292955994606018,0.16348126530647278,0.27402132749557495,0.11144816875457764
+Ich mache im Moment kaum Sport.,bewegung,,,bewegung,0.32391828298568726,0.1557726263999939,0.3821244239807129,0.17511799931526184
+Ich wache nachts oft auf und tagsüber ist mir alles zu viel.,"stress, schlaf","stress, schlaf, bewegung",bewegung,,0.5388749837875366,0.8432368636131287,0.7065181136131287,0.22453555464744568
+Ich bin gerade sehr gestresst und bewege mich viel zu wenig.,"stress, bewegung","stress, schlaf, bewegung",schlaf,,0.7000077962875366,0.6498044729232788,0.837927520275116,0.28092044591903687
+Ich habe heute kaum Schritte gesammelt.,bewegung,,,bewegung,0.3580714166164398,0.18275344371795654,0.4149097800254822,0.10834623128175735
+Mein Alltag ist gerade hektisch und Bewegung kommt total zu kurz.,"stress, bewegung","stress, schlaf, bewegung",schlaf,,0.695748507976532,0.5160765051841736,0.7826898694038391,0.24683591723442078
+Heute war stressig und ich habe kaum etwas Richtiges gegessen.,"stress, ernaehrung",ernaehrung,,stress,0.4023474156856537,0.2965560853481293,0.4017546772956848,0.9239987730979919
+"Ich habe viel Stress, mich kaum bewegt und wieder nur Fast Food gegessen.","stress, bewegung, ernaehrung","stress, schlaf, bewegung, ernaehrung",schlaf,,0.5896027088165283,0.5018830895423889,0.6743392944335938,0.9276296496391296
